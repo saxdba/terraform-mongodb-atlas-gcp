@@ -7,8 +7,8 @@ atlas_private_key = "my-atras-private-key"
 #################
 # MongoDB Atlas #
 #################
-atlas_org_id = "my-atlas-org-id"
-atlas_project_name = "my-new-atlas-project-name"
+atlas_org_id = "eng-plasma-283616"
+atlas_project_name = "My-First-Project"
 environment = "dev"
 cluster_instance_size_name = "M10"
 cluster_location = "WESTERN_EUROPE"
