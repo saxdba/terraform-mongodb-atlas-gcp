@@ -4,11 +4,15 @@
 
 # Define Terraform provider
 terraform {
-  required_version = ">= 1.8.5"
+  required_providers {
+    mongodbatlas = {
+      source  = "mongodb/mongodbatlas"
+      version = "= 0.8.0"
+    }
+  }
 }
 
-# Define the MongoDB Atlas Provider
 provider "mongodbatlas" {
-  public_key  = var.atlas_public_key
-  private_key = var.atlas_private_key
+    public_key = var.mongoPublicKey
+    private_key  = var.mongoPrivateKey
 }
